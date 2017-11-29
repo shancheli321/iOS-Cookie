@@ -20,6 +20,38 @@
 
 }
 
+/**
+ *  设置  公共 cookie
+ */
++ (void)setAppCookie {
+    // 逻辑 cookie
+    NSMutableDictionary *logicCookie = [NSMutableDictionary dictionaryWithCapacity:0];
+    
+//    [logicCookie setObject:APP_VERSION forKey:@"app_version"];
+//    [logicCookie setObject:CurrentSystemVersion forKey:@"os_version"];
+//    [logicCookie setObject:CurrentLanguage forKey:@"language"];
+//    [logicCookie setObject:[[UIDevice currentDevice] yztl_deviceId] forKey:@"mac_id"];
+    [logicCookie setObject:@"ios" forKey:@"plat"];
+    
+    for (NSString *key in logicCookie) {
+        [DemoViewController setCookie:key value:[logicCookie objectForKey:key]];
+    }
+}
+
+/**
+ *  设置 cookie
+ */
++ (void)setCookie:(NSString *)key value:(NSString *)value  {
+    NSMutableDictionary *cookieDic = [NSMutableDictionary dictionary];
+    
+    [cookieDic setObject:key forKey:NSHTTPCookieName];
+    [cookieDic setValue:value forKey:NSHTTPCookieValue];
+    
+    NSHTTPCookie *cookieuser = [NSHTTPCookie cookieWithProperties:cookieDic];
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookieuser];
+}
+
+
 /*
  iOS提供了两个类，用于操作cookie：
  1. NSHTTPCookie  2. NSHTTPCookieStorage
