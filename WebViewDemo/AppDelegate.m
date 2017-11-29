@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "Constants.h"
+#import "UIWebViewController.h"
+#import "WKWebViewController.h"
 
 @interface DAURLProtocol : NSURLProtocol
 
@@ -15,8 +17,7 @@
 
 @implementation DAURLProtocol
 
-+ (BOOL)canInitWithRequest:(NSURLRequest *)request
-{
++ (BOOL)canInitWithRequest:(NSURLRequest *)request {
     //处理过不再处理
     if ([NSURLProtocol propertyForKey:DAURLProtocolHandledKey inRequest:request]) {
         return NO;
@@ -87,13 +88,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
     
     //设置自定义UserAgent
     [self setCustomUserAgent];
     
     //拦截
 //    [NSURLProtocol registerClass:[DAURLProtocol class]];
+    
+    UITabBarController *tabbarVC = [[UITabBarController alloc] init];
+    
+    UINavigationController *webview = [[UINavigationController alloc] initWithRootViewController:[[UIWebViewController alloc] init]];
+    UINavigationController *wkwebview = [[UINavigationController alloc] initWithRootViewController:[[WKWebViewController alloc] init]];
+    
+    [tabbarVC setViewControllers:@[webview, wkwebview] animated:YES];
+    
+
+    self.window.rootViewController = tabbarVC;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

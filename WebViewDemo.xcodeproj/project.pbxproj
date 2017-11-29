@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F23B9BA01EC479BE0082DB40 /* ImgAddClickEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = F23B9B9F1EC479BE0082DB40 /* ImgAddClickEvent.js */; };
+		0B0513941FCE945C00BB7DD4 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0513861FCE945C00BB7DD4 /* WKWebViewController.m */; };
+		0B0513951FCE945C00BB7DD4 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0513891FCE945C00BB7DD4 /* UIWebViewController.m */; };
+		0B0513961FCE945C00BB7DD4 /* NSHTTPCookie+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05138C1FCE945C00BB7DD4 /* NSHTTPCookie+Utils.m */; };
+		0B0513971FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05138E1FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.m */; };
+		0B0513981FCE945C00BB7DD4 /* ImgAddClickEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = 0B0513911FCE945C00BB7DD4 /* ImgAddClickEvent.js */; };
+		0B0513991FCE945C00BB7DD4 /* NativeApi.js in Resources */ = {isa = PBXBuildFile; fileRef = 0B0513921FCE945C00BB7DD4 /* NativeApi.js */; };
+		0B05139A1FCE945C00BB7DD4 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 0B0513931FCE945C00BB7DD4 /* test.html */; };
+		0B05139E1FCE94E600BB7DD4 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05139D1FCE94E600BB7DD4 /* DemoViewController.m */; };
 		F26895761D780DF9009112EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26895751D780DF9009112EB /* main.m */; };
 		F26895791D780DF9009112EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26895781D780DF9009112EB /* AppDelegate.m */; };
-		F268957F1D780DFA009112EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F268957D1D780DFA009112EB /* Main.storyboard */; };
 		F26895811D780DFA009112EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26895801D780DFA009112EB /* Assets.xcassets */; };
 		F26895841D780DFA009112EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26895821D780DFA009112EB /* LaunchScreen.storyboard */; };
 		F268958F1D780DFA009112EB /* WebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F268958E1D780DFA009112EB /* WebViewDemoTests.m */; };
 		F268959A1D780DFA009112EB /* WebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26895991D780DFA009112EB /* WebViewDemoUITests.m */; };
-		F26895A91D780EF7009112EB /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26895A81D780EF7009112EB /* UIWebViewController.m */; };
-		F26895AC1D780F01009112EB /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26895AB1D780F01009112EB /* WKWebViewController.m */; };
-		F26895B01D782B9D009112EB /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = F26895AF1D782B9D009112EB /* test.html */; };
-		F26A2B691EC5A1580011C2A0 /* NativeApi.js in Resources */ = {isa = PBXBuildFile; fileRef = F26A2B681EC5A1580011C2A0 /* NativeApi.js */; };
-		F2BE3E221EC314E4001D7FF5 /* NSHTTPCookie+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE3E211EC314E4001D7FF5 /* NSHTTPCookie+Utils.m */; };
-		F2BE3E251EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE3E241EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F2251FEC1EC1BE8D00F4D2D0 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		F23B9B9F1EC479BE0082DB40 /* ImgAddClickEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImgAddClickEvent.js; sourceTree = "<group>"; };
+		0B0513851FCE945C00BB7DD4 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		0B0513861FCE945C00BB7DD4 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		0B0513881FCE945C00BB7DD4 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		0B0513891FCE945C00BB7DD4 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		0B05138B1FCE945C00BB7DD4 /* NSHTTPCookie+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookie+Utils.h"; sourceTree = "<group>"; };
+		0B05138C1FCE945C00BB7DD4 /* NSHTTPCookie+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookie+Utils.m"; sourceTree = "<group>"; };
+		0B05138D1FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookieStorage+Utils.h"; sourceTree = "<group>"; };
+		0B05138E1FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookieStorage+Utils.m"; sourceTree = "<group>"; };
+		0B0513901FCE945C00BB7DD4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0B0513911FCE945C00BB7DD4 /* ImgAddClickEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImgAddClickEvent.js; sourceTree = "<group>"; };
+		0B0513921FCE945C00BB7DD4 /* NativeApi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NativeApi.js; sourceTree = "<group>"; };
+		0B0513931FCE945C00BB7DD4 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		0B05139C1FCE94E600BB7DD4 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		0B05139D1FCE94E600BB7DD4 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		F26895711D780DF9009112EB /* WebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26895751D780DF9009112EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F26895771D780DF9009112EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F26895781D780DF9009112EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F268957E1D780DFA009112EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26895801D780DFA009112EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26895831D780DFA009112EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26895851D780DFA009112EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,16 +68,6 @@
 		F26895951D780DFA009112EB /* WebViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26895991D780DFA009112EB /* WebViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoUITests.m; sourceTree = "<group>"; };
 		F268959B1D780DFA009112EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F26895A71D780EF6009112EB /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
-		F26895A81D780EF7009112EB /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
-		F26895AA1D780F01009112EB /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
-		F26895AB1D780F01009112EB /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
-		F26895AF1D782B9D009112EB /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
-		F26A2B681EC5A1580011C2A0 /* NativeApi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NativeApi.js; sourceTree = "<group>"; };
-		F2BE3E201EC314E4001D7FF5 /* NSHTTPCookie+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookie+Utils.h"; sourceTree = "<group>"; };
-		F2BE3E211EC314E4001D7FF5 /* NSHTTPCookie+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookie+Utils.m"; sourceTree = "<group>"; };
-		F2BE3E231EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookieStorage+Utils.h"; sourceTree = "<group>"; };
-		F2BE3E241EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookieStorage+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0513841FCE945C00BB7DD4 /* WKWebview */ = {
+			isa = PBXGroup;
+			children = (
+				0B0513851FCE945C00BB7DD4 /* WKWebViewController.h */,
+				0B0513861FCE945C00BB7DD4 /* WKWebViewController.m */,
+			);
+			path = WKWebview;
+			sourceTree = "<group>";
+		};
+		0B0513871FCE945C00BB7DD4 /* UIWebviw */ = {
+			isa = PBXGroup;
+			children = (
+				0B0513881FCE945C00BB7DD4 /* UIWebViewController.h */,
+				0B0513891FCE945C00BB7DD4 /* UIWebViewController.m */,
+			);
+			path = UIWebviw;
+			sourceTree = "<group>";
+		};
+		0B05138A1FCE945C00BB7DD4 /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+				0B05138B1FCE945C00BB7DD4 /* NSHTTPCookie+Utils.h */,
+				0B05138C1FCE945C00BB7DD4 /* NSHTTPCookie+Utils.m */,
+				0B05138D1FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.h */,
+				0B05138E1FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.m */,
+			);
+			path = Catgory;
+			sourceTree = "<group>";
+		};
+		0B05138F1FCE945C00BB7DD4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B0513901FCE945C00BB7DD4 /* Constants.h */,
+				0B0513911FCE945C00BB7DD4 /* ImgAddClickEvent.js */,
+				0B0513921FCE945C00BB7DD4 /* NativeApi.js */,
+				0B0513931FCE945C00BB7DD4 /* test.html */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0B05139B1FCE94C300BB7DD4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B05139C1FCE94E600BB7DD4 /* DemoViewController.h */,
+				0B05139D1FCE94E600BB7DD4 /* DemoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		F26895681D780DF9009112EB = {
 			isa = PBXGroup;
 			children = (
@@ -117,21 +167,13 @@
 		F26895731D780DF9009112EB /* WebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0B05138A1FCE945C00BB7DD4 /* Catgory */,
+				0B05138F1FCE945C00BB7DD4 /* Sources */,
+				0B0513871FCE945C00BB7DD4 /* UIWebviw */,
+				0B0513841FCE945C00BB7DD4 /* WKWebview */,
+				0B05139B1FCE94C300BB7DD4 /* ViewController */,
 				F26895771D780DF9009112EB /* AppDelegate.h */,
 				F26895781D780DF9009112EB /* AppDelegate.m */,
-				F26895AF1D782B9D009112EB /* test.html */,
-				F2251FEC1EC1BE8D00F4D2D0 /* Constants.h */,
-				F23B9B9F1EC479BE0082DB40 /* ImgAddClickEvent.js */,
-				F26A2B681EC5A1580011C2A0 /* NativeApi.js */,
-				F2BE3E201EC314E4001D7FF5 /* NSHTTPCookie+Utils.h */,
-				F2BE3E211EC314E4001D7FF5 /* NSHTTPCookie+Utils.m */,
-				F2BE3E231EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.h */,
-				F2BE3E241EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.m */,
-				F26895A71D780EF6009112EB /* UIWebViewController.h */,
-				F26895A81D780EF7009112EB /* UIWebViewController.m */,
-				F26895AA1D780F01009112EB /* WKWebViewController.h */,
-				F26895AB1D780F01009112EB /* WKWebViewController.m */,
-				F268957D1D780DFA009112EB /* Main.storyboard */,
 				F26895801D780DFA009112EB /* Assets.xcassets */,
 				F26895821D780DFA009112EB /* LaunchScreen.storyboard */,
 				F26895851D780DFA009112EB /* Info.plist */,
@@ -269,12 +311,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0513981FCE945C00BB7DD4 /* ImgAddClickEvent.js in Resources */,
 				F26895841D780DFA009112EB /* LaunchScreen.storyboard in Resources */,
-				F23B9BA01EC479BE0082DB40 /* ImgAddClickEvent.js in Resources */,
-				F26A2B691EC5A1580011C2A0 /* NativeApi.js in Resources */,
+				0B05139A1FCE945C00BB7DD4 /* test.html in Resources */,
 				F26895811D780DFA009112EB /* Assets.xcassets in Resources */,
-				F26895B01D782B9D009112EB /* test.html in Resources */,
-				F268957F1D780DFA009112EB /* Main.storyboard in Resources */,
+				0B0513991FCE945C00BB7DD4 /* NativeApi.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,12 +340,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26895A91D780EF7009112EB /* UIWebViewController.m in Sources */,
 				F26895791D780DF9009112EB /* AppDelegate.m in Sources */,
 				F26895761D780DF9009112EB /* main.m in Sources */,
-				F26895AC1D780F01009112EB /* WKWebViewController.m in Sources */,
-				F2BE3E251EC31FB1001D7FF5 /* NSHTTPCookieStorage+Utils.m in Sources */,
-				F2BE3E221EC314E4001D7FF5 /* NSHTTPCookie+Utils.m in Sources */,
+				0B0513941FCE945C00BB7DD4 /* WKWebViewController.m in Sources */,
+				0B0513951FCE945C00BB7DD4 /* UIWebViewController.m in Sources */,
+				0B0513971FCE945C00BB7DD4 /* NSHTTPCookieStorage+Utils.m in Sources */,
+				0B05139E1FCE94E600BB7DD4 /* DemoViewController.m in Sources */,
+				0B0513961FCE945C00BB7DD4 /* NSHTTPCookie+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,14 +382,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F268957D1D780DFA009112EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F268957E1D780DFA009112EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F26895821D780DFA009112EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -452,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.WebViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.WebViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
